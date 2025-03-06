@@ -1,0 +1,4 @@
+buildCommand: |
+  apt-get update && apt-get install -y build-essential gfortran
+  pip install --upgrade pip setuptools wheel
+  pip install -r requirements.txt
