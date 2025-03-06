@@ -1,6 +1,7 @@
 --prefer-binary
 flask==2.0.1
 openpyxl==3.0.9
-numpy==1.24.4  # 兼容 Python 3.11
-pandas==1.5.3  # 1.3.3 不兼容 Python 3.11，改成 1.5.3
+numpy==1.24.4
+pandas==1.5.3
 gunicorn==20.1.0
+werkzeug==2.0.3  # 🔥 降级到 Flask 2.0.1 兼容的版本
